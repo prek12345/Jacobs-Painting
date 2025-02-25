@@ -54,6 +54,8 @@
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
+            border: none;
+            cursor: pointer;
         }
         form {
             margin-top: 20px;
