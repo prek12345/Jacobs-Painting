@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jacob's Painting - Quality Painting Services</title>
+    <title>Jacob's Painting - Professional Painting Services</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,28 +13,19 @@
             text-align: center;
         }
         header {
-            background: #333;
+            background: #2c3e50;
             color: #fff;
             padding: 20px;
-            font-size: 24px;
+            font-size: 26px;
         }
         .container {
-            max-width: 800px;
+            max-width: 1000px;
             margin: auto;
             padding: 20px;
             background: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             margin-top: 20px;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin-top: 20px;
-            background: #007BFF;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
         }
         .services {
             margin-top: 20px;
@@ -52,33 +43,48 @@
             padding: 10px;
             border-radius: 5px;
         }
+        .contact {
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background: #e67e22;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
         footer {
             margin-top: 20px;
-            padding: 10px;
-            background: #333;
+            padding: 15px;
+            background: #2c3e50;
             color: #fff;
         }
     </style>
 </head>
 <body>
     <header>
-        Jacob's Painting
+        Jacob's Painting - Quality You Can Trust
     </header>
     <div class="container">
-        <h2>Professional & Affordable Painting Services</h2>
-        <p>We offer top-quality painting services for residential and commercial properties.</p>
-        <p>Let us bring color and life to your space with our expert painters.</p>
-        <a href="mailto:contact@jacobspainting.com" class="button">Get a Free Quote</a>
-        
+        <h2>Interior & Exterior Painting Services</h2>
+        <p>Transform your home or business with our expert painting services.</p>
         <div class="services">
             <h3>Our Services</h3>
             <ul>
                 <li>Interior Painting</li>
                 <li>Exterior Painting</li>
-                <li>Residential Painting</li>
                 <li>Commercial Painting</li>
+                <li>Residential Painting</li>
                 <li>Wall Repairs & Preparation</li>
+                <li>Custom Color Consultation</li>
             </ul>
+        </div>
+        <div class="contact">
+            <h3>Get a Free Quote</h3>
+            <p>Contact us today for a consultation.</p>
+            <a href="mailto:contact@jacobspainting.com" class="button">Contact Us</a>
         </div>
     </div>
     <footer>
@@ -86,3 +92,4 @@
     </footer>
 </body>
 </html>
+
