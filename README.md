@@ -83,6 +83,7 @@
     <div class="container">
         <h2>Interior & Exterior Painting Services</h2>
         <p>Transform your home or business with our expert painting services.</p>
+        <p><strong>Serving the Ottawa & Gatineau Area</strong></p>
         <div class="services">
             <h3>Our Services</h3>
             <ul>
@@ -106,8 +107,9 @@
         </div>
     </div>
     <footer>
-        &copy; 2025 Jacob's Painting. All rights reserved.
+        &copy; 2025 Jacob's Painting. All rights reserved. | Serving Ottawa & Gatineau
     </footer>
 </body>
 </html>
+
 
