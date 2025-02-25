@@ -55,6 +55,19 @@
             text-decoration: none;
             border-radius: 5px;
         }
+        form {
+            margin-top: 20px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
         footer {
             margin-top: 20px;
             padding: 15px;
@@ -82,9 +95,14 @@
             </ul>
         </div>
         <div class="contact">
-            <h3>Get a Free Quote</h3>
-            <p>Contact us today for a consultation.</p>
-            <a href="mailto:contact@jacobspainting.com" class="button">Contact Us</a>
+            <h3>Contact Us</h3>
+            <p>Jacob Burgaj | Phone: 613-413-0257 | Email: <a href="mailto:jacobspainting@gmail.com">jacobspainting@gmail.com</a></p>
+            <form action="mailto:jacobspainting@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required><br>
+                <input type="email" name="email" placeholder="Your Email" required><br>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
+                <button type="submit" class="button">Send Message</button>
+            </form>
         </div>
     </div>
     <footer>
